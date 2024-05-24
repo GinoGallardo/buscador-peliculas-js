@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+.fonde_buscador{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./image/fondo-buscador-peliculas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buscador{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.534));
+}
+  
+  input[type="text"] {
+    width: 300px;
+    font-size: 1em;
+    border: .1em solid red;
+    color: white;
+    padding: 1rem 1rem 0.5rem;
+    background-color: rgba(5, 5, 5, 0.301);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
